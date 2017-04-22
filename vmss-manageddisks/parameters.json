@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmssName": {
+      "value": "jfgvmss03"
+    },
+    "instanceCount": {
+      "value": 2
+    },
+    "adminUsername": {
+      "value": "gamache"
+    },
+    "adminPassword": {
+      "value": "_Left_hand2345"
+    },
+    "existingdiagnosticsStorageAccountName": {
+      "value": "jfgdiagsa"
+    },
+    "existingdiagnosticsStorageResourceGroup": {
+      "value": "jfgdiagrg"
+    }
+  }
+}
