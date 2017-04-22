@@ -1,8 +1,9 @@
 # VMSS template
 
 ## To deploy this template:
-   1) DEploy a storage account for the diagnostics
+   1) Deploy a storage account for the diagnostics
    2) Modify the parameters.json 
+    
    3) Modify the deploy.sh with your deployment information
     
 
@@ -13,11 +14,22 @@ START WITH: [Best Practices for authoring Azure Templates](https://docs.microsof
 
 - [Convert a scaleset template to a managed disk](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-managed-disks)
 
+## Diagnostics extension
+[Linux VM Diagnostics extension](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/classic/diagnostic-extension)
+
+[Template from quickstart templates](https://github.com/Azure/azure-quickstart-templates/tree/master/201-vm-monitoring-diagnostics-extension)
+
+[Blog post about Diagnistics extension](https://blogs.msdn.microsoft.com/cloud_solution_architect/2015/01/26/azure-diagnostics-for-azure-virtual-machines/)
+
+
 
 ## References:
 - [Deploy a resource groupe with Azure CLI](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy-cli)
 - [Continuous Integration with VSTS](https://docs.microsoft.com/en-us/azure/vs-azure-tools-resource-groups-ci-in-vsts?toc=%2fazure%2fazure-resource-manager%2ftoc.json)
 - [Pass Secure values with Key Vault](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-keyvault-parameter)
+
+# Create a Template
+[Main Reference for the template Authoring](https://docs.microsoft.com/en-us/azure/templates/)
 
 ### Azure CLI 2.0
 - [Install Azure CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
