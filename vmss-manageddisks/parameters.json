@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vmssName": {
-      "value": "jfgvmss03"
+      "value": null
     },
     "instanceCount": {
       "value": 2
     },
     "adminUsername": {
-      "value": "gamache"
+      "value": null
     },
     "adminPassword": {
-      "value": "_Left_hand2345"
+      "value": null
     },
     "existingdiagnosticsStorageAccountName": {
-      "value": "jfgdiagsa"
+      "value": null
     },
     "existingdiagnosticsStorageResourceGroup": {
-      "value": "jfgdiagrg"
+      "value": null
     }
   }
 }
